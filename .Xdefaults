@@ -1,0 +1,106 @@
+URxvt*scrollTtyKeypress:	true
+URxvt*secondaryScroll:		true
+URxvt*font:			fixed,-misc-termsyn-medium-*-*-*-*-120-*-*-*-*-*-*,xft:DejaVuSansMono Nerd Font
+URxvt*boldFont:
+URxvt*scrollTtyOutput:		false
+!URxvt*foreground:		snow3
+URxvt*foreground:		white
+URxvt*iconName:			terminal
+URxvt*scrollWithBuffer:		false
+URxvt*background:		black
+URxvt*cursorBlink:		true
+URxvt*cursorColor:		#FFFFAA
+URxvt*scrollstyle:		plain
+URxvt*loginShell:		true
+URxvt*scrollBar:		false
+URxvt*cursorUnderline:		true
+URxvt.depth:			32
+URxvt.background:		[95]#000000
+URxvt*internalBorder:		6
+URxvt.perl-lib:			/home/user/.urxvt/
+!URxvt*perl-ext-common:		default,tabbed
+! color scheme
+!URxvt*background:             [90]#131d24
+!URxvt*foreground:             #eeeeee
+!URxvt*cursorColor:            #eeeeee
+! black
+!URxvt.color0:                 #101010
+!URxvt.color8:                 #565656
+! red
+!URxvt.color1:                 #bd4a4a
+!URxvt.color9:                 #cc6666
+! green
+!URxvt.color2:                 #778800
+!URxvt.color10:                #88aa22
+! yellow
+!URxvt.color3:                 #e8ae5b
+!URxvt.color11:                #ffd965
+! blue
+URxvt.color4:                 #3333ff
+URxvt.color12:                #3333ff
+! magenta
+!URxvt.color5:                 #ff5879
+!URxvt.color13:                #f26b9e
+! cyan
+!URxvt.color6:                 #72ad8c
+!URxvt.color14:                #9fe3bc
+! white
+!URxvt.color7:                 #fdf6e3
+!URxvt.color15:                #c3c2c5
+
+
+! Any scripts placed here will override global ones with the same name
+
+! Tabbed extension configuration
+!URxvt.perl-ext: tabbed
+URxvt.tabbed.tabbar-fg: 8
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg:    15
+URxvt.tabbed.tab-bg:    8
+URxvt.tabbed.new-button: false
+URxvt.tabbed.tabcmds.1: N|shell
+URxvt.tabbed.tabcmds.2: R|root|su -
+URxvt.tabbed.tabcmds.3: M|mc|mc
+
+!URxvt.tabbed.tabbar-fg:	1
+!URxvt.tabbed.tab-fg:	0
+!URxvt.tabbed.tab-bg:	2
+!URxvt*perl-lib: /home/terra/.urxvt
+!URxvt*perl-ext: cwd-spawn
+!URxvt*keysym.M-o: perl:cwd-spawn
+
+
+XTerm*loginShell:	true
+*Text.background:	#efefef
+
+yeahconsole*handleColor:	#ed0505
+!yeahconsole*tintColor:		#000000
+yeahconsole*handleWidth:	2
+yeahconsole*toggleKey:	None+F12
+yeahconsole*keyFull:	None+F11
+yeahconsole*cursorBlink:	true
+yeahconsole*restart:	1
+yeahconsole*xOffset:	680
+yeahconsole*screenWidth:	1200
+yeahconsole*yOffset:	28
+yeahconsole*saveLines:	10000
+!yeahconsole*aniDelay:	3 
+yeahconsole*stepSize:	100
+yeahconsole*perl-ext-common:	default,tabbed
+yeahconsole*scrollBar:	false
+yeahconsole*consoleHeight:	60
+yeahconsole.internalBorder:	6
+yeahconsole.loginShell:	true
+yeahconsole.term:	urxvtc \-ls
+yeahconsole.depth:			32
+yeahconsole.background:		[95]#000000
+
+Xft.antialias: 1
+Xft.autohint: 0
+Xft.dpi: 96
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb
+
+Xcursor.theme: default

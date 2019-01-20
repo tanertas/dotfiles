@@ -1,0 +1,32 @@
+# Write your default config options here!
+#profile=opengl-hq
+#deband=no
+#scale=ewa_lanczossharp
+#cache=8194
+profile=gpu-hq
+scale=ewa_lanczossharp
+cscale=ewa_lanczossharp
+interpolation
+tscale=oversample
+x11-bypass-compositor=yes
+#vo=vdpau
+#hwdec=auto
+#hwdec=vaapi
+ao=alsa
+sub-ass=yes
+sub-use-margins=yes
+slang=tr,en
+#sub-auto=fuzzy
+sub-auto=all
+audio-file-auto=fuzzy
+#sub-codepage=ISO8859-9
+sub-codepage=cp1254
+sub-margin-y=70
+#ass-force-style=FontName=Utopia,Default.Bold=1
+sub-ass-force-style=FontName="SFNS Display",Default.Bold=0
+#sub-scale=0.9
+demuxer=lavf
+#audio-channels=2
+#heartbeat-cmd="/home/terra/bin/sendshift"
+#heartbeat-interval=600
+#msg-level=vo=debug

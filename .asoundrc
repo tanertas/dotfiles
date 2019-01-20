@@ -1,0 +1,17 @@
+#pcm.!default {
+#	type hw
+#	card CA0106
+#	device 0
+#}
+
+#ctl.!default {
+#	type hw           
+#	card CA0106
+#	device 0
+#}
+
+defaults.pcm.!type hw
+defaults.pcm.!card CA0106
+defaults.ctl.!card CA0106
+#defaults.pcm.!device 0
+#defaults.ctl.!device 0
